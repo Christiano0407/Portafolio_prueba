@@ -50,6 +50,7 @@ h2{
  display: flex;
  align-items: center;
  justify-content: space-between;
+ flex-wrap: wrap;
 }
 
 .hero-image{
@@ -68,6 +69,7 @@ background: white;
 display: flex;
 align-items: center;
 justify-content: center;
+flex-wrap: wrap;
 
 
 }
@@ -135,6 +137,7 @@ justify-content: center;
     background: white;
     margin: 15px;
     padding: 20px;
+    flex-wrap: wrap;
 }
 
 .proyect-imageContainer {
@@ -145,7 +148,9 @@ justify-content: center;
  color: white;
  display: flex;
  justify-content: space-between;
+ align-items: center;
  height: 70px;
+ flex-wrap: wrap;
 
 }
 
@@ -194,6 +199,7 @@ figure{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .footer img{
@@ -315,11 +321,35 @@ figure{
 }
 
 .container{
-    width: 1000px;
+    max-width: 1000px;
     margin: 0 auto;
     display: inherit;
     justify-content: inherit;
     align-items: inherit;
     height: inherit;
     flex-wrap: inherit;
+}
+
+@media screen and (max-width: 1024px){
+ body {
+
+ }
+}
+
+@media screen and (max-width: 768px){
+    body {
+
+    }
+}
+
+@media screen and (max-width: 480px){
+    body {
+        
+    }
+}
+
+@media screen and (max-width: 240px){
+    body {
+        
+    }
 }
